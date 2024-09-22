@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "EasyMath",
+  "version": "1.0",
+  "description": "Descrição da extensão.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_css": "style.css",
+    "default_scripting": "popup.js"
+  }
+}
