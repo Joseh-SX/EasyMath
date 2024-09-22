@@ -67,15 +67,15 @@ Diagrama de classes
             | selector()           |
             | inputValores()       |
             +----------------------+
-             /                    \
-            /                      \
-           v                        v
-+--------------------+    +----------------------+
-|      selector      |    |    inputValores      |
-+--------------------+    +----------------------+
-| somatoria()        |    | selector()           |
-| media()            |    | inputValores()       |
-| variancia()        |    +----------------------+
-| desvPad()          |
-| moda()             |
-+--------------------+
+              |                   |
+              |                   _____
+              v                        v
+            +--------------------+    +----------------------+
+            |      selector      |    |    inputValores      |
+            +--------------------+    +----------------------+
+            | somatoria()        |    | selector()           |
+            | media()            |    | inputValores()       |
+            | variancia()        |    +----------------------+
+            | desvPad()          |
+            | moda()             |
+            +--------------------+
